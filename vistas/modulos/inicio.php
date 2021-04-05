@@ -8,7 +8,7 @@
         <!-- Seleccionar Clientes -->
       <div class="col-md-4">
         <label for="inputState" class="form-label">Clientes</label>
-        <!-- <select id="inputState" class="form-control"> -->
+     
         <select id="seleccionarCliente" name="Ven_Cli_Id" class="form-control">
           <option selected>--- Seleccionar Cliente ---</option>
           <?php

@@ -18,8 +18,6 @@
 <!-- Site wrapper -->
 <div class="wrapper">
   <?php
-    // include 'modulos/cabezote.php';
-    // include 'modulos/menu.php';
     
     if (isset($_GET["ruta"]))
     {
@@ -40,8 +38,7 @@
     } else {
       include 'modulos/inicio.php';
     }
-    // var_dump($_GET["ruta"]);
-    // include 'modulos/footer.php';
+
   ?>
 </div>
 <!-- ./wrapper -->
